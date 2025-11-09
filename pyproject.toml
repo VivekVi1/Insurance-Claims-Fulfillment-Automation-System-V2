@@ -1,0 +1,24 @@
+[project]
+name = "version-2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "boto3>=1.40.4",
+    "botocore>=1.40.4",
+    "cryptography>=45.0.6",
+    "fastapi>=0.116.1",
+    "langchain>=0.3.27",
+    "langchain-aws>=0.2.30",
+    "langchain-community>=0.3.27",
+    "psycopg2-binary>=2.9.10",
+    "pydantic[email]>=2.11.7",
+    "pymongo[srv]>=4.8.0",
+    "pymysql>=1.1.2",
+    "pypdf>=5.9.0",
+    "python-dotenv>=1.1.1",
+    "python-multipart>=0.0.20",
+    "streamlit>=1.48.1",
+    "uvicorn>=0.35.0",
+]
